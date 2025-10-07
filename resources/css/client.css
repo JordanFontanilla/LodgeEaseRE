@@ -1,0 +1,347 @@
+/* LodgeEase Client Homepage Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/images/clientSideBackground2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.hero-section {
+    background: url('/images/clientSideBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-radius: 0 0 20px 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.search-container {
+    background: white;
+    border-radius: 50px;
+    padding: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    outline: none;
+    background: transparent;
+    color: #333;
+}
+
+.search-input:first-child {
+    border-radius: 50px 0 0 50px;
+}
+
+.search-input.location-input::placeholder {
+    color: #666;
+}
+
+.search-input.date-input {
+    border-left: 1px solid #eee;
+    color: #666;
+}
+
+.search-input.date-input::placeholder {
+    color: #999;
+}
+
+.search-btn {
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.search-btn:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+}
+
+.main-content {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 2rem;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.filters-sidebar {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.filter-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+.filter-section {
+    margin-bottom: 1.5rem;
+}
+
+.filter-section h6 {
+    color: #555;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.form-check {
+    margin-bottom: 0.5rem;
+}
+
+.form-check-input:checked {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.price-range {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.property-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    transition: all 0.3s;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.property-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.property-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.best-match-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #27ae60;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.property-info {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.property-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.property-location {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.property-amenities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.amenity-tag {
+    background: #ecf0f1;
+    color: #555;
+    padding: 3px 8px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
+
+.property-rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.stars {
+    color: #f39c12;
+}
+
+.rating-score {
+    background: #3498db;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.property-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.price {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #27ae60;
+}
+
+.price-period {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+.results-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.results-count {
+    color: #666;
+}
+
+.sort-dropdown {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px 15px;
+    background: white;
+}
+
+.map-btn {
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 1rem;
+}
+
+.map-btn:hover {
+    background: #2980b9;
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .search-container {
+        flex-direction: column;
+        border-radius: 15px;
+        padding: 15px;
+        gap: 10px;
+    }
+    
+    .search-input {
+        border-radius: 10px;
+        border-left: none !important;
+    }
+    
+    .search-btn {
+        border-radius: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-section {
+        max-width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+/* Equal height cards */
+.property-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem;
+}
+
+.property-col {
+    display: flex;
+    padding: 1rem;
+}
+
+.property-col .property-card {
+    width: 100%;
+}
