@@ -1,386 +1,770 @@
-<div align="center"><div align="center">
+<div align="center"><div align="center"><div align="center">
 
 
 
-<img src="public/images/LodgeEaseLogo.png" alt="LodgeEase Logo" width="120"/># 🏨 LodgeEase
+![LodgeEase Logo](public/images/LodgeEaseLogo.png)
 
-### Modern Hotel & Lodge Management System
 
-# LodgeEase 🏨
 
-[![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+# LodgeEase<img src="public/images/LodgeEaseLogo.png" alt="LodgeEase Logo" width="120"/># 🏨 LodgeEase
 
-### *Revolutionizing Hotel Management with Real-Time Intelligence*[![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
 
-[![Firebase](https://img.shields.io/badge/Firebase-Realtime_DB-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
 
-[![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)[![TailwindCSS](https://img.shields.io/badge/Tailwind-4.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+### Modern Hotel & Lodge Management System### Modern Hotel & Lodge Management System
 
-[![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)[![Vite](https://img.shields.io/badge/Vite-7.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
 
-[![Firebase](https://img.shields.io/badge/Firebase-Realtime-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+[![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)# LodgeEase 🏨
+
+[![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
+
+[![Firebase](https://img.shields.io/badge/Firebase-Realtime-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)[![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
 
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-4.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 
+### *Revolutionizing Hotel Management with Real-Time Intelligence*[![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
+
+**Complete hotel management solution with real-time booking, analytics, and guest management**
+
+[![Firebase](https://img.shields.io/badge/Firebase-Realtime_DB-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
+
+[Quick Start](#quick-start) • [Features](#features) • [Installation](#installation) • [Documentation](#documentation)
+
+[![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)[![TailwindCSS](https://img.shields.io/badge/Tailwind-4.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+
+</div>
+
+[![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)[![Vite](https://img.shields.io/badge/Vite-7.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+
+---
+
+[![Firebase](https://img.shields.io/badge/Firebase-Realtime-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+## 🌟 What is LodgeEase?
+
+[![TailwindCSS](https://img.shields.io/badge/Tailwind-4.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+
+LodgeEase is a complete hotel management system that helps you:
+
 [![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)](LICENSE)**A comprehensive hotel management solution with real-time booking, business analytics, and streamlined operations**
 
+- **Manage Rooms** - Track availability, pricing, and room details
+
+- **Handle Bookings** - Process reservations from guests in real-time
+
+- **Analyze Business** - View revenue, occupancy rates, and trends
+
+- **Monitor Activity** - Track all system actions and changes**A cutting-edge hotel management platform combining Laravel's power with Firebase's real-time capabilities**[Features](#-features) • [Installation](#-installation) • [Tech Stack](#-technology-stack) • [Documentation](#-documentation)
+
+- **Serve Guests** - Beautiful guest portal for browsing and booking
 
 
-**A cutting-edge hotel management platform combining Laravel's power with Firebase's real-time capabilities**[Features](#-features) • [Installation](#-installation) • [Tech Stack](#-technology-stack) • [Documentation](#-documentation)
 
-
+Built with **Laravel** (backend) + **Firebase** (real-time data) + **TailwindCSS** (modern UI)
 
 [🚀 Quick Start](#-quick-start) • [✨ Features](#-key-features) • [📖 Docs](#-documentation) • [🤝 Contributing](#-contributing)---
 
+---
 
+
+
+## ✨ Features
 
 </div></div>
 
-
-
----## ✨ Features
+### For Hotel Managers
 
 
 
-## 📋 Table of Contents<table>
+| Feature | What It Does |
+
+|---------|-------------|---## ✨ Features
+
+| 📊 **Dashboard** | See occupancy, revenue, and bookings at a glance |
+
+| 🏨 **Room Management** | Add, edit, delete rooms with photos and pricing |
+
+| 📋 **Booking Requests** | Approve or reject guest reservations |
+
+| 📈 **Analytics** | View charts and reports about your business |## 📋 Table of Contents<table>
+
+| 📝 **Activity Logs** | See who did what and when |
 
 <tr>
 
+### For Guests
+
 - [Overview](#-overview)<td width="50%">
 
-- [Key Features](#-key-features)
+| Feature | What It Does |
 
-- [Technology Stack](#-technology-stack)### 🏠 Client Portal
+|---------|-------------|- [Key Features](#-key-features)
 
-- [Quick Start](#-quick-start)- 🌐 **Responsive Home Interface** - Modern, mobile-friendly design
+| 🔍 **Browse Rooms** | View available rooms with photos and prices |
 
-- [Configuration](#-configuration)- 🔍 **Room Browse & Search** - Interactive catalog with filtering
+| 📅 **Book Online** | Submit booking requests instantly |- [Technology Stack](#-technology-stack)### 🏠 Client Portal
 
-- [Documentation](#-documentation)- ⚡ **Real-time Availability** - Live room status checking
+| 👤 **Guest Login** | Manage your bookings and profile |
 
-- [API Reference](#-api-reference)- 📅 **Booking System** - Streamlined reservation process
+| 💬 **Chatbot** | Get instant answers to common questions |- [Quick Start](#-quick-start)- 🌐 **Responsive Home Interface** - Modern, mobile-friendly design
 
-- [Contributing](#-contributing)- 🔐 **Guest Authentication** - Secure login and profiles
+
+
+---- [Configuration](#-configuration)- 🔍 **Room Browse & Search** - Interactive catalog with filtering
+
+
+
+## 🛠️ Technology- [Documentation](#-documentation)- ⚡ **Real-time Availability** - Live room status checking
+
+
+
+**Backend:**- [API Reference](#-api-reference)- 📅 **Booking System** - Streamlined reservation process
+
+- Laravel 12.x (PHP Framework)
+
+- MySQL (Guest & Admin Data)- [Contributing](#-contributing)- 🔐 **Guest Authentication** - Secure login and profiles
+
+- Firebase Realtime Database (Live Updates)
 
 - [License](#-license)
 
-</td>
+**Frontend:**
 
----<td width="50%">
+- TailwindCSS (Styling)</td>
+
+- Alpine.js (Interactive Components)
+
+- Chart.js (Analytics Graphs)---<td width="50%">
+
+- Vite (Fast Build Tool)
 
 
+
+---
 
 ## 🌟 Overview### 🎛️ Admin Dashboard
 
+## 🚀 Quick Start
+
 - 📊 **Comprehensive Dashboard** - Real-time metrics & KPIs
+
+### What You Need
 
 **LodgeEase** is a comprehensive hotel management system built with modern web technologies. It streamlines operations from guest bookings to business analytics, offering real-time synchronization, intelligent automation, and powerful reporting capabilities.- 🏨 **Room Management** - Complete inventory control
 
+Before starting, install these on your computer:
+
 - 📋 **Booking Requests** - Centralized reservations
 
-### Why LodgeEase?- 📈 **Business Analytics** - Advanced insights
+- **PHP 8.2+** - [Download here](https://www.php.net/downloads)
 
-- 📝 **Activity Logging** - Real-time tracking
+- **Composer** - [Download here](https://getcomposer.org)### Why LodgeEase?- 📈 **Business Analytics** - Advanced insights
+
+- **Node.js 20+** - [Download here](https://nodejs.org)
+
+- **MySQL 8.0+** - [Download here](https://dev.mysql.com/downloads)- 📝 **Activity Logging** - Real-time tracking
+
+- **Firebase Account** - [Sign up free](https://firebase.google.com)
 
 ```diff- ⚙️ **Settings Management** - System configuration
 
+---
+
 + Real-time booking and availability updates- 🤖 **AI Chatbot** - Automated support
+
+## 📦 Installation
 
 + Comprehensive business analytics and KPIs
 
+### Step 1: Download the Project
+
 + Dual database architecture (MySQL + Firebase)</td>
 
-+ Mobile-responsive design for on-the-go management</tr>
+```bash
 
-+ AI-powered chatbot for guest support<tr>
+git clone https://github.com/JordanFontanilla/LodgeEaseRE.git+ Mobile-responsive design for on-the-go management</tr>
 
-+ Advanced activity logging and monitoring<td width="50%">
+cd LodgeEaseRE
 
-+ Optimized performance with smart caching
+```+ AI-powered chatbot for guest support<tr>
 
-```### 📊 Analytics & Reporting
 
-- 💰 **Revenue Analytics** - Monthly tracking & forecasting
 
-<div align="center">- 📈 **Occupancy Trends** - Historical & predictive analysis
+### Step 2: Install PHP Packages+ Advanced activity logging and monitoring<td width="50%">
 
-- 📅 **Booking Trends** - Pattern analysis
 
-### 🎯 Built For- 🏆 **Room Performance** - Profitability metrics
 
-- 👥 **Guest Demographics** - Customer insights
-
-| Hotels | Lodges | Resorts | Hostels | B&Bs |- 🌡️ **Seasonal Analysis** - Performance tracking
-
-|:------:|:------:|:-------:|:-------:|:----:|- 📤 **Export Capabilities** - JSON/CSV formats
-
-| ✅ | ✅ | ✅ | ✅ | ✅ |
-
-</td>
-
-</div><td width="50%">
-
-
-
----### 🔍 Activity Monitoring
-
-- ⚡ **Real-time Logs** - Live activity tracking
-
-## ✨ Key Features- 🔎 **Advanced Filtering** - Multi-criteria search
-
-- 📝 **Comprehensive Logging** - All system events
-
-<details open>- ⏱️ **Performance Metrics** - Resource tracking
-
-<summary><b>🏠 Guest Portal - Seamless Booking Experience</b></summary>- ☁️ **Firebase Integration** - Cloud storage
-
-- 🎯 **Visual Indicators** - Status badges
-
-<br>
-
-</td>
-
-| Feature | Description |</tr>
-
-|---------|-------------|</table>
-
-| 🌐 **Modern Home Interface** | Clean, responsive landing page with stunning visuals |
-
-| 🔍 **Smart Room Search** | Advanced filtering by type, price, and amenities |### 🚀 Technical Highlights
-
-| ⚡ **Real-time Availability** | Live room status updates via Firebase |
-
-| 📅 **Easy Booking** | Intuitive reservation flow with instant confirmation |```mermaid
-
-| 👤 **Guest Profiles** | Secure authentication and booking history |graph LR
-
-| 💬 **AI Chatbot** | 24/7 automated guest support and inquiries |    A[Client Portal] --> B[Laravel Backend]
-
-    B --> C[Firebase Realtime DB]
-
-</details>    B --> D[MySQL Database]
-
-    E[Admin Dashboard] --> B
-
-<details open>    B --> F[Real-time Analytics]
-
-<summary><b>🎛️ Admin Dashboard - Powerful Management Tools</b></summary>    C --> F
-
-```
-
-<br>- ⚡ **Performance Optimized** - Modal optimization, lazy loading
-
-- 🔄 **Real-time Sync** - Live data synchronization across clients
-
-```- 🎨 **Modern UI/UX** - Clean, intuitive interface design
-
-┌─────────────────────────────────────────────────────────┐- 🏗️ **Component Architecture** - Reusable, maintainable code
-
-│  📊 Dashboard Overview                                  │- 📱 **Mobile Responsive** - Works seamlessly on all devices
-
-├─────────────────────────────────────────────────────────┤- 🔐 **Secure** - Laravel authentication & Firebase security
-
-│  • Real-time KPIs (Occupancy, Revenue, Bookings)       │
-
-│  • Interactive Charts (Chart.js)                        │---
-
-│  • Quick Actions & Notifications                        │
-
-│  • Performance Metrics                                  │## 🛠️ Technology Stack
-
-└─────────────────────────────────────────────────────────┘
-
-```<div align="center">
-
-
-
-**Core Modules:**### Backend Technologies
-
-![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-
-- 🏨 **Room Management** - Complete CRUD operations, status tracking, pricing![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=flat-square&logo=php&logoColor=white)
-
-- 📋 **Booking Requests** - Approval workflow, guest information, payment tracking![Firebase](https://img.shields.io/badge/Firebase-Realtime_DB-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-
-- 📈 **Business Analytics** - Revenue, occupancy, trends, forecasting
-
-- 📝 **Activity Logs** - Real-time system monitoring and audit trails**Laravel 12.x** • **PHP 8.2+** • **Firebase Realtime Database** • **MySQL**
-
-- ⚙️ **Settings** - System configuration, user management, preferences
-
-- 🔐 **Security** - Role-based access, session management, activity tracking### Frontend Technologies
-
-![TailwindCSS](https://img.shields.io/badge/Tailwind-4.0-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-</details>![Vite](https://img.shields.io/badge/Vite-7.x-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-![Alpine.js](https://img.shields.io/badge/Alpine.js-3.x-8BC0D0?style=flat-square&logo=alpine.js&logoColor=black)
-
-<details open>![Chart.js](https://img.shields.io/badge/Chart.js-4.x-FF6384?style=flat-square&logo=chart.js&logoColor=white)
-
-<summary><b>📊 Business Intelligence - Data-Driven Decisions</b></summary>
-
-**TailwindCSS 4.0** • **Vite 7.x** • **Alpine.js** • **Chart.js** • **Axios**
-
-<br>
-
-### Development Tools
-
-### Analytics Suite![Composer](https://img.shields.io/badge/Composer-2.x-885630?style=flat-square&logo=composer&logoColor=white)
-
-![npm](https://img.shields.io/badge/npm-10.x-CB3837?style=flat-square&logo=npm&logoColor=white)
-
-| Module | Metrics | Export |![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=flat-square&logo=git&logoColor=white)
-
-|--------|---------|--------|
-
-| 💰 **Revenue Analytics** | Daily/Monthly/Yearly trends, Room type breakdown | ✅ JSON/CSV |**Laravel Pint** • **PHPUnit** • **Laravel Sail** • **Git**
-
-| 📈 **Occupancy Tracking** | Real-time occupancy rates, Historical trends | ✅ JSON/CSV |
-
-| 📅 **Booking Patterns** | Peak seasons, Cancellation rates, Lead times | ✅ JSON/CSV |</div>
-
-| 🏆 **Room Performance** | Revenue per room, Occupancy rates by type | ✅ JSON/CSV |
-
-| 👥 **Guest Demographics** | Age groups, Booking sources, Repeat guests | ✅ JSON/CSV |---
-
-
-
-**Visualization Tools:**## 📋 Requirements
-
-- 📊 Interactive line/bar/pie charts
-
-- 📉 Trend analysis with forecasting| Requirement | Version |
-
-- 🎨 Color-coded performance indicators|------------|---------|
-
-- 📱 Mobile-responsive dashboards| 🐘 PHP | 8.2 or higher |
-
-| 📦 Composer | 2.x |
-
-</details>| 🟢 Node.js | 18.x or higher |
-
-| 📦 npm/yarn | Latest |
-
-<details>| 🔥 Firebase | Realtime Database |
-
-<summary><b>⚡ Performance Features - Speed & Efficiency</b></summary>| 🌐 Web Server | Apache/Nginx or Laravel dev server |
-
-
-
-<br>---
-
-
-
-| Optimization | Impact | Technology |## 🚀 Installation
-
-|--------------|--------|------------|
-
-| 🎯 **Modal Optimization** | Instant interactions | Custom loading exclusions |### Step 1: Clone the Repository
-
-| 🔄 **Real-time Sync** | No page refreshes | Firebase listeners |```bash
-
-| 🗄️ **Unified History** | Single source of truth | `rooms_history` collection |git clone https://github.com/JordanFontanilla/LodgeEaseRE.git
-
-| 🏗️ **Code Splitting** | Faster initial load | Vite tree-shaking |cd LodgeEaseRE
-
-| 📦 **Asset Optimization** | Reduced bundle size | Vite minification |```
-
-| 💾 **Smart Caching** | Reduced API calls | Browser + server caching |
-
-### Step 2: Install PHP Dependencies
-
-</details>```bash
+```bash+ Optimized performance with smart caching
 
 composer install
 
-<details>```
+``````### 📊 Analytics & Reporting
 
-<summary><b>🔍 Activity Monitoring - Complete Visibility</b></summary>
 
-### Step 3: Install Node Dependencies
 
-<br>```bash
+### Step 3: Install JavaScript Packages- 💰 **Revenue Analytics** - Monthly tracking & forecasting
+
+
+
+```bash<div align="center">- 📈 **Occupancy Trends** - Historical & predictive analysis
 
 npm install
 
-**Real-time Activity Tracking:**```
-
-```javascript
-
-✓ User logins/logouts### Step 4: Environment Setup
-
-✓ Room updates (status, pricing, details)```bash
-
-✓ Booking creation/modification/cancellationcp .env.example .env
-
-✓ Check-in/Check-out operationsphp artisan key:generate
-
-✓ System configuration changes```
-
-✓ Security events
-
-```### Step 5: Configure Firebase
+```- 📅 **Booking Trends** - Pattern analysis
 
 
 
-**Advanced Features:**> **📌 Important:** Firebase is required for real-time features
-
-- 🔎 Multi-criteria filtering (type, date range, user)
-
-- ⚡ Live updates (no manual refresh)1. **Create Firebase Project**
-
-- 📝 Detailed event descriptions with context   - Visit [Firebase Console](https://console.firebase.google.com)
-
-- ⏱️ Precise timestamps   - Create a new project
-
-- 🎯 Visual status indicators   - Enable **Realtime Database**
-
-- 📤 Export logs for auditing
-
-2. **Download Service Account**
-
-</details>   - Go to Project Settings → Service Accounts
-
-   - Generate new private key (JSON file)
-
----   - Save as `storage/app/firebase/firebase_credentials.json`
+### Step 4: Setup Environment### 🎯 Built For- 🏆 **Room Performance** - Profitability metrics
 
 
 
-## 🛠️ Technology Stack3. **Update Environment Variables**
-
-   ```env   ```env
-
-<div align="center">   FIREBASE_PROJECT_ID=your-project-id
-
-   FIREBASE_DATABASE_URL=https://your-project-default-rtdb.firebaseio.com/
-
-### Core Technologies   ```
+Copy the example environment file:- 👥 **Guest Demographics** - Customer insights
 
 
 
-[![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=flat-square&logo=laravel)](https://laravel.com)### Step 6: Build Assets
+```bash| Hotels | Lodges | Resorts | Hostels | B&Bs |- 🌡️ **Seasonal Analysis** - Performance tracking
 
-[![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=flat-square&logo=php)](https://php.net)```bash
+cp .env.example .env
 
-[![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://mysql.com)# Development (with hot reload)
+php artisan key:generate|:------:|:------:|:-------:|:-------:|:----:|- 📤 **Export Capabilities** - JSON/CSV formats
 
-[![Firebase](https://img.shields.io/badge/Firebase-Realtime_DB-FFCA28?style=flat-square&logo=firebase)](https://firebase.google.com)npm run dev
+```
+
+| ✅ | ✅ | ✅ | ✅ | ✅ |
+
+Edit `.env` and update these lines:
+
+</td>
+
+```env
+
+APP_NAME=LodgeEase</div><td width="50%">
+
+APP_URL=http://localhost:8000
 
 
 
-### Frontend Stack# Production build
+DB_DATABASE=lodgeease
+
+DB_USERNAME=root---### 🔍 Activity Monitoring
+
+DB_PASSWORD=your_password
+
+- ⚡ **Real-time Logs** - Live activity tracking
+
+FIREBASE_CREDENTIALS=path/to/your/firebase-key.json
+
+FIREBASE_DATABASE_URL=https://your-project.firebaseio.com## ✨ Key Features- 🔎 **Advanced Filtering** - Multi-criteria search
+
+```
+
+- 📝 **Comprehensive Logging** - All system events
+
+### Step 5: Create Database
+
+<details open>- ⏱️ **Performance Metrics** - Resource tracking
+
+```bash
+
+mysql -u root -p -e "CREATE DATABASE lodgeease;"<summary><b>🏠 Guest Portal - Seamless Booking Experience</b></summary>- ☁️ **Firebase Integration** - Cloud storage
+
+php artisan migrate
+
+```- 🎯 **Visual Indicators** - Status badges
+
+
+
+### Step 6: Setup Firebase<br>
+
+
+
+1. Go to [Firebase Console](https://console.firebase.google.com)</td>
+
+2. Create a new project
+
+3. Enable **Realtime Database**| Feature | Description |</tr>
+
+4. Go to **Project Settings** → **Service Accounts**
+
+5. Click **Generate New Private Key**|---------|-------------|</table>
+
+6. Save the JSON file in your project folder
+
+7. Update `FIREBASE_CREDENTIALS` in `.env` with the file path| 🌐 **Modern Home Interface** | Clean, responsive landing page with stunning visuals |
+
+
+
+### Step 7: Build and Run| 🔍 **Smart Room Search** | Advanced filtering by type, price, and amenities |### 🚀 Technical Highlights
+
+
+
+```bash| ⚡ **Real-time Availability** | Live room status updates via Firebase |
 
 npm run build
 
+php artisan serve| 📅 **Easy Booking** | Intuitive reservation flow with instant confirmation |```mermaid
+
+```
+
+| 👤 **Guest Profiles** | Secure authentication and booking history |graph LR
+
+**Open your browser:**
+
+- Guest Portal: http://localhost:8000| 💬 **AI Chatbot** | 24/7 automated guest support and inquiries |    A[Client Portal] --> B[Laravel Backend]
+
+- Admin Dashboard: http://localhost:8000/admin
+
+    B --> C[Firebase Realtime DB]
+
+### Step 8: Create Admin Account
+
+</details>    B --> D[MySQL Database]
+
+```bash
+
+php artisan tinker    E[Admin Dashboard] --> B
+
+```
+
+<details open>    B --> F[Real-time Analytics]
+
+Then type:
+
+<summary><b>🎛️ Admin Dashboard - Powerful Management Tools</b></summary>    C --> F
+
+```php
+
+App\Models\Admin::create([```
+
+    'username' => 'admin',
+
+    'password' => bcrypt('admin123'),<br>- ⚡ **Performance Optimized** - Modal optimization, lazy loading
+
+    'email' => 'admin@lodgeease.com'
+
+]);- 🔄 **Real-time Sync** - Live data synchronization across clients
+
+exit
+
+``````- 🎨 **Modern UI/UX** - Clean, intuitive interface design
+
+
+
+Now login at `/admin` with username: **admin**, password: **admin123**┌─────────────────────────────────────────────────────────┐- 🏗️ **Component Architecture** - Reusable, maintainable code
+
+
+
+---│  📊 Dashboard Overview                                  │- 📱 **Mobile Responsive** - Works seamlessly on all devices
+
+
+
+## 📖 Documentation├─────────────────────────────────────────────────────────┤- 🔐 **Secure** - Laravel authentication & Firebase security
+
+
+
+### Project Folder Structure│  • Real-time KPIs (Occupancy, Revenue, Bookings)       │
+
+
+
+```│  • Interactive Charts (Chart.js)                        │---
+
+LodgeEaseRE/
+
+││  • Quick Actions & Notifications                        │
+
+├── app/                        # Laravel Application
+
+│   ├── Http/Controllers/       # Page Controllers│  • Performance Metrics                                  │## 🛠️ Technology Stack
+
+│   ├── Models/                 # Database Models
+
+│   └── Services/               # Firebase & Business Logic└─────────────────────────────────────────────────────────┘
+
+│
+
+├── resources/```<div align="center">
+
+│   ├── views/                  # HTML Templates
+
+│   ├── css/                    # Stylesheets
+
+│   └── js/                     # JavaScript Files
+
+│**Core Modules:**### Backend Technologies
+
+├── routes/
+
+│   └── web.php                 # All Website Routes![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+
+│
+
+├── public/                     # Public Files (Images, CSS, JS)- 🏨 **Room Management** - Complete CRUD operations, status tracking, pricing![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=flat-square&logo=php&logoColor=white)
+
+└── database/migrations/        # Database Structure
+
+```- 📋 **Booking Requests** - Approval workflow, guest information, payment tracking![Firebase](https://img.shields.io/badge/Firebase-Realtime_DB-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+
+
+
+### How It Works- 📈 **Business Analytics** - Revenue, occupancy, trends, forecasting
+
+
+
+```- 📝 **Activity Logs** - Real-time system monitoring and audit trails**Laravel 12.x** • **PHP 8.2+** • **Firebase Realtime Database** • **MySQL**
+
+Guest Visits Website
+
+    ↓- ⚙️ **Settings** - System configuration, user management, preferences
+
+Views Rooms (from Firebase)
+
+    ↓- 🔐 **Security** - Role-based access, session management, activity tracking### Frontend Technologies
+
+Submits Booking Request
+
+    ↓![TailwindCSS](https://img.shields.io/badge/Tailwind-4.0-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+Admin Sees Request in Dashboard
+
+    ↓</details>![Vite](https://img.shields.io/badge/Vite-7.x-646CFF?style=flat-square&logo=vite&logoColor=white)
+
+Admin Approves Booking
+
+    ↓![Alpine.js](https://img.shields.io/badge/Alpine.js-3.x-8BC0D0?style=flat-square&logo=alpine.js&logoColor=black)
+
+Room Status Updates in Real-Time
+
+    ↓<details open>![Chart.js](https://img.shields.io/badge/Chart.js-4.x-FF6384?style=flat-square&logo=chart.js&logoColor=white)
+
+Guest Checks In
+
+    ↓<summary><b>📊 Business Intelligence - Data-Driven Decisions</b></summary>
+
+Guest Checks Out
+
+    ↓**TailwindCSS 4.0** • **Vite 7.x** • **Alpine.js** • **Chart.js** • **Axios**
+
+History Saved to Firebase
+
+```<br>
+
+
+
+### Important Files### Development Tools
+
+
+
+| File | Purpose |### Analytics Suite![Composer](https://img.shields.io/badge/Composer-2.x-885630?style=flat-square&logo=composer&logoColor=white)
+
+|------|---------|
+
+| `routes/web.php` | All website URLs and pages |![npm](https://img.shields.io/badge/npm-10.x-CB3837?style=flat-square&logo=npm&logoColor=white)
+
+| `app/Services/FirebaseService.php` | Firebase database operations |
+
+| `resources/js/room-management.js` | Room editing and checkout || Module | Metrics | Export |![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=flat-square&logo=git&logoColor=white)
+
+| `resources/js/business-analytics.js` | Analytics charts |
+
+| `resources/views/admin/dashboard.blade.php` | Admin homepage ||--------|---------|--------|
+
+
+
+---| 💰 **Revenue Analytics** | Daily/Monthly/Yearly trends, Room type breakdown | ✅ JSON/CSV |**Laravel Pint** • **PHPUnit** • **Laravel Sail** • **Git**
+
+
+
+## 🔧 Common Commands| 📈 **Occupancy Tracking** | Real-time occupancy rates, Historical trends | ✅ JSON/CSV |
+
+
+
+### Development| 📅 **Booking Patterns** | Peak seasons, Cancellation rates, Lead times | ✅ JSON/CSV |</div>
+
+
+
+```bash| 🏆 **Room Performance** | Revenue per room, Occupancy rates by type | ✅ JSON/CSV |
+
+npm run dev          # Watch for file changes (auto-refresh)
+
+php artisan serve    # Start web server| 👥 **Guest Demographics** | Age groups, Booking sources, Repeat guests | ✅ JSON/CSV |---
+
+```
+
+
+
+### Production
+
+**Visualization Tools:**## 📋 Requirements
+
+```bash
+
+npm run build        # Build optimized files- 📊 Interactive line/bar/pie charts
+
+php artisan optimize # Cache for speed
+
+```- 📉 Trend analysis with forecasting| Requirement | Version |
+
+
+
+### Database- 🎨 Color-coded performance indicators|------------|---------|
+
+
+
+```bash- 📱 Mobile-responsive dashboards| 🐘 PHP | 8.2 or higher |
+
+php artisan migrate           # Create tables
+
+php artisan migrate:fresh     # Reset database| 📦 Composer | 2.x |
+
+php artisan db:seed           # Add sample data
+
+```</details>| 🟢 Node.js | 18.x or higher |
+
+
+
+### Clear Cache| 📦 npm/yarn | Latest |
+
+
+
+```bash<details>| 🔥 Firebase | Realtime Database |
+
+php artisan cache:clear       # Clear application cache
+
+php artisan config:clear      # Clear config cache<summary><b>⚡ Performance Features - Speed & Efficiency</b></summary>| 🌐 Web Server | Apache/Nginx or Laravel dev server |
+
+php artisan view:clear        # Clear view cache
+
+```
+
+
+
+---<br>---
+
+
+
+## 🎨 Customization
+
+
+
+### Change Logo| Optimization | Impact | Technology |## 🚀 Installation
+
+
+
+Replace `public/images/LodgeEaseLogo.png` with your logo|--------------|--------|------------|
+
+
+
+### Change Colors| 🎯 **Modal Optimization** | Instant interactions | Custom loading exclusions |### Step 1: Clone the Repository
+
+
+
+Edit `resources/css/app.css` and `tailwind.config.js`| 🔄 **Real-time Sync** | No page refreshes | Firebase listeners |```bash
+
+
+
+### Add New Room Types| 🗄️ **Unified History** | Single source of truth | `rooms_history` collection |git clone https://github.com/JordanFontanilla/LodgeEaseRE.git
+
+
+
+Edit room management page or add through Firebase console| 🏗️ **Code Splitting** | Faster initial load | Vite tree-shaking |cd LodgeEaseRE
+
+
+
+### Modify Email Templates| 📦 **Asset Optimization** | Reduced bundle size | Vite minification |```
+
+
+
+Edit files in `resources/views/emails/`| 💾 **Smart Caching** | Reduced API calls | Browser + server caching |
+
+
+
+---### Step 2: Install PHP Dependencies
+
+
+
+## 🤝 Contributing</details>```bash
+
+
+
+Want to improve LodgeEase? Here's how:composer install
+
+
+
+1. **Fork** this repository<details>```
+
+2. **Create** a new branch: `git checkout -b feature-name`
+
+3. **Make** your changes<summary><b>🔍 Activity Monitoring - Complete Visibility</b></summary>
+
+4. **Test** everything works: `php artisan test`
+
+5. **Commit**: `git commit -m "Add some feature"`### Step 3: Install Node Dependencies
+
+6. **Push**: `git push origin feature-name`
+
+7. **Submit** a Pull Request<br>```bash
+
+
+
+### Code Stylenpm install
+
+
+
+- Follow PSR-12 PHP coding standards**Real-time Activity Tracking:**```
+
+- Use meaningful variable names
+
+- Add comments for complex logic```javascript
+
+- Write tests for new features
+
+✓ User logins/logouts### Step 4: Environment Setup
+
+---
+
+✓ Room updates (status, pricing, details)```bash
+
+## 🐛 Found a Bug?
+
+✓ Booking creation/modification/cancellationcp .env.example .env
+
+[Report it here](https://github.com/JordanFontanilla/LodgeEaseRE/issues)
+
+✓ Check-in/Check-out operationsphp artisan key:generate
+
+Please include:
+
+- What you were doing✓ System configuration changes```
+
+- What you expected to happen
+
+- What actually happened✓ Security events
+
+- Screenshots if possible
+
+```### Step 5: Configure Firebase
+
+---
+
+
+
+## 📞 Get Help
+
+**Advanced Features:**> **📌 Important:** Firebase is required for real-time features
+
+- **Documentation:** This README
+
+- **Issues:** [GitHub Issues](https://github.com/JordanFontanilla/LodgeEaseRE/issues)- 🔎 Multi-criteria filtering (type, date range, user)
+
+- **Email:** Contact through GitHub
+
+- ⚡ Live updates (no manual refresh)1. **Create Firebase Project**
+
+---
+
+- 📝 Detailed event descriptions with context   - Visit [Firebase Console](https://console.firebase.google.com)
+
+## 📝 License
+
+- ⏱️ Precise timestamps   - Create a new project
+
+MIT License - You can use this for personal or commercial projects.
+
+- 🎯 Visual status indicators   - Enable **Realtime Database**
+
+See [LICENSE](LICENSE) file for details.
+
+- 📤 Export logs for auditing
+
+---
+
+2. **Download Service Account**
+
+## 🙏 Credits
+
+</details>   - Go to Project Settings → Service Accounts
+
+Built with these amazing technologies:
+
+   - Generate new private key (JSON file)
+
+- [Laravel](https://laravel.com) - PHP Framework
+
+- [Firebase](https://firebase.google.com) - Real-time Database---   - Save as `storage/app/firebase/firebase_credentials.json`
+
+- [TailwindCSS](https://tailwindcss.com) - CSS Framework
+
+- [Chart.js](https://chartjs.org) - Charts & Graphs
+
+- [Alpine.js](https://alpinejs.dev) - JavaScript Framework
+
+- [Vite](https://vitejs.dev) - Build Tool## 🛠️ Technology Stack3. **Update Environment Variables**
+
+
+
+---   ```env   ```env
+
+
+
+## 🗺️ Future Plans<div align="center">   FIREBASE_PROJECT_ID=your-project-id
+
+
+
+- [ ] Mobile app for iOS and Android   FIREBASE_DATABASE_URL=https://your-project-default-rtdb.firebaseio.com/
+
+- [ ] Email notifications for bookings
+
+- [ ] Payment processing (Stripe/PayPal)### Core Technologies   ```
+
+- [ ] Multi-language support
+
+- [ ] SMS notifications
+
+- [ ] Guest feedback system
+
+- [ ] Housekeeping management[![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=flat-square&logo=laravel)](https://laravel.com)### Step 6: Build Assets
+
+- [ ] Staff scheduling
+
+[![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=flat-square&logo=php)](https://php.net)```bash
+
+---
+
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://mysql.com)# Development (with hot reload)
+
+<div align="center">
+
+[![Firebase](https://img.shields.io/badge/Firebase-Realtime_DB-FFCA28?style=flat-square&logo=firebase)](https://firebase.google.com)npm run dev
+
+## ⭐ Like This Project?
+
+
+
+Give it a star on GitHub!
+
+### Frontend Stack# Production build
+
+[![GitHub stars](https://img.shields.io/github/stars/JordanFontanilla/LodgeEaseRE?style=social)](https://github.com/JordanFontanilla/LodgeEaseRE/stargazers)
+
+npm run build
+
+---
+
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.0-06B6D4?style=flat-square&logo=tailwindcss)](https://tailwindcss.com)```
+
+**Made by [Jordan Fontanilla](https://github.com/JordanFontanilla)**
 
 [![Vite](https://img.shields.io/badge/Vite-7.x-646CFF?style=flat-square&logo=vite)](https://vitejs.dev)
 
+LodgeEase © 2025
+
 [![Alpine.js](https://img.shields.io/badge/Alpine.js-3.x-8BC0D0?style=flat-square&logo=alpinedotjs)](https://alpinejs.dev)### Step 7: Initialize Firebase Database
 
+[↑ Back to Top](#lodgeease)
+
 [![Chart.js](https://img.shields.io/badge/Chart.js-4.x-FF6384?style=flat-square&logo=chartdotjs)](https://chartjs.org)```bash
+
+</div>
 
 php artisan firebase:init
 
